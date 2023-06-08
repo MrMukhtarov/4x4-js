@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+table{
+    width: 450px;
+    height: 450px;
+    text-align: center;
+}
+.tb-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+td{
+    width: 100px;
+    cursor: pointer;
+}
